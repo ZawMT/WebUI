@@ -1,0 +1,56 @@
+/*This Div will adjust to the resizing*/
+#titleBar {
+  position:fixed;
+  width:100%;
+  height:100%;
+  background-image:url('CornerZ-Banner.jpg');
+  background-size:100%;/*To stretch the image the whole X*/
+  background-repeat:no-repeat;
+}
+
+.container {
+    width:100%;
+    overflow:hidden;
+    background:blue;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.container ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container ul li {
+    list-style: none;
+    float: left;
+    width: 20%;
+    height: 300px;
+    background: red;
+    margin: 10px 20px 30px 40px;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+
+.container ul li:hover {
+    opacity: 0.8;
+}
+
+.container ul li .header:hover {
+    background: green;
+    color: blue;
+}
+
+.container ul li .header {
+    width: 100%;
+    height: 50px;
+    background: white;
+    text-align: center;
+}
+
+@media screen and (max-width:1200px) {
+    .container ul li {
+        width: 40%;
+        margin-left: 50px;
+    }
+}

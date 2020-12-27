@@ -1,4 +1,5 @@
 /*This Div will adjust to the resizing*/
+/*Ref: https://www.w3schools.com/cssref/tryit.asp?filename=trycss_background-image*/
 #titleBar {
   position:fixed;
   width:100%;
@@ -9,6 +10,7 @@
 }
 
 /*This Div will NOT adjust to the resizing : Absolute positioning*/
+/*Ref: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_prop_element_offsettop*/
 #gitBox {
   top: 100px;
   margin: 10px;
